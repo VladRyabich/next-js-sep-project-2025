@@ -1,0 +1,39 @@
+.recipeItem {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 24px * 2) / 3);
+    border: 1px solid #003CC5;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.recipeLink {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px
+;
+}
+
+.recipeItemByTag {
+    list-style: none;
+}
+
+.recipeListByTag {
+    display: flex;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recipeLinkByTag:hover,
+.recipeLinkByTag:focus {
+    color: #0B63F6;
+    text-shadow: 1px 1px #003CC5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

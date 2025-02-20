@@ -1,0 +1,42 @@
+.recipeDetailsItem {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.recipeTitle {
+    display: block;
+    text-align: center;
+}
+
+.recipeUserLink:hover,
+.recipeUserLink:focus {
+    color: #0B63F6;
+    text-shadow: 1px 1px #003CC5;
+}
+
+.recipeImgItem {
+    justify-content: center;
+}
+
+.recipeImg {
+    width: 50%;
+    display: flex;
+
+}
+
+.recipeSpan {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.recipeLinkByTagName {
+    display: flex;
+    align-items: center;
+}
+
+.recipeLink:hover,
+.recipeLink:focus {
+    color: #0B63F6;
+    text-shadow: 1px 1px #003CC5;
+}

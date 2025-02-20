@@ -1,0 +1,14 @@
+.userItem {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 24px * 2) / 3);
+    border: 1px solid #003CC5;
+    border-radius: 5px;
+}
+
+.userLink {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+}
